@@ -1,4 +1,4 @@
-.loginForm{
+.loginForm, .signupForm{
     border: solid black 1px;
     width: 30%;
     margin: 0 auto;
@@ -6,14 +6,14 @@
     border-radius: 10px;
 }
 
-.loginForm form{
+.loginForm form, .signupForm form{
     display: flex;
     width: 100%;
     flex-direction: column;
     margin: 0 auto;
 }
 
-.loginForm form input, button{
+.loginForm form input, .signupForm form input,button{
     padding: 10px;
     font-size: 1.4rem;
     border-radius: 10px;
