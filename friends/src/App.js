@@ -1,7 +1,8 @@
 import React from 'react';
 import Login from './views/Login'
 import SignUp from './views/SignUp'
-import Home from './views/Home'
+import Friend from './views/Friend'
+
 import {  Route, Link } from 'react-router-dom';
 import './App.css';
 
@@ -17,7 +18,7 @@ function App() {
           </div>
         </nav>
 
-        <Route exact path="./views/Home" component={Home} />
+        <Route exact path="/views/Friend" component={Friend} />
         <Route exact path="/views/Login" component={Login} />
         <Route path="/views/SignUp" component={SignUp} />
     </div>
